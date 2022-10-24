@@ -33,7 +33,7 @@
 		                        <li>
 		                            <a href="{{ route('whatIsLosAlgodones') }}" spellcheck="false" data-ms-editor="true">What Is Los Algodones?</a>
 		                        </li>
-		                        <li class="has-dropdown">
+		                        {{-- <li class="has-dropdown">
 		                            <a href="#" spellcheck="false" data-ms-editor="true">
 		                                Mega Menu
 		                            </a>
@@ -78,7 +78,7 @@
 		                                    </ul>
 		                                </li>
 		                            </ul>
-		                        </li>
+		                        </li> --}}
 		                    </ul>
 		                </div>
 		                

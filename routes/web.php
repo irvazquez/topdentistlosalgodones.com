@@ -14,9 +14,9 @@ use App\Http\Controllers\StaticPagesController;
 |
 */
 
-Route::get('/', function () {
+Route::get('/home', function () {
     return view('welcome');
 });
 
-Route::get('/home', [StaticPagesController::class, 'home'])-> name('home');
+Route::get('/', [StaticPagesController::class, 'home'])-> name('home');
 Route::get('/what-is-los-algodones', [StaticPagesController::class, 'whatIsLosAlgodones'])->name('whatIsLosAlgodones');

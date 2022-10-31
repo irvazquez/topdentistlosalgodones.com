@@ -149,7 +149,7 @@ class StaticPagesController extends Controller
                     <p spellcheck="false" data-ms-editor="true">
                         Another important factor to consider is the materials and technology that is being used at the clinic. It is proven that working with digital dentistry there is reduced risk of problems occurring during the treatment, as well as problems that could occur years after.
                     </p>
-                    <p> spellcheck="false" data-ms-editor="true">
+                    <p spellcheck="false" data-ms-editor="true">
                         You want to make sure that your Dental Clinic in Los Algodones has state of the art technology available to make your experience as safe, accurate and minimally invasive as possible.
                     </p>'
             ],

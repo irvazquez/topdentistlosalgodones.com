@@ -20,3 +20,4 @@ Route::get('/home', function () {
 
 Route::get('/', [StaticPagesController::class, 'home'])-> name('home');
 Route::get('/what-is-los-algodones', [StaticPagesController::class, 'whatIsLosAlgodones'])->name('whatIsLosAlgodones');
+Route::get('/choosing-the-clinic', [StaticPagesController::class, 'choosingTheClinic'])->name('choosingTheClinic');

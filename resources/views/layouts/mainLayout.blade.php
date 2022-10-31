@@ -33,6 +33,9 @@
 		                        <li>
 		                            <a href="{{ route('whatIsLosAlgodones') }}" spellcheck="false" data-ms-editor="true">What Is Los Algodones?</a>
 		                        </li>
+														<li>
+		                            <a href="{{ route('choosingTheClinic') }}" spellcheck="false" data-ms-editor="true">Choosing the Correct Clinic For Your Needs</a>
+		                        </li>
 		                        {{-- <li class="has-dropdown">
 		                            <a href="#" spellcheck="false" data-ms-editor="true">
 		                                Mega Menu
@@ -108,19 +111,19 @@
 			<footer class="footer-2 bg-dark text-center-xs">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-4">
+						<div class="col-sm-3">
 							<a href="/">
                 <img class="image-xxs fade-half" alt="Pic" src="{{ asset('img/logo_top_light.png') }}">
               </a>
 						</div>
 					
-						<div class="col-sm-4 text-center">
+						<div class="col-sm-6 text-center">
 							<span class="fade-half" spellcheck="false" data-ms-editor="true">
 								© Copyright {{ now()->year }} Top Dentist - All Rights Reserved
 							</span>
 						</div>
 					
-						<div class="col-sm-4 text-right text-center-xs">
+						<div class="col-sm-3 text-right text-center-xs">
 							<ul class="list-inline social-list">
 								<li><a href="#"><i class="ti-twitter-alt"></i></a></li>
 								<li><a href="#"><i class="ti-facebook"></i></a></li>

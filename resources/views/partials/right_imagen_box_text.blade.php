@@ -5,7 +5,7 @@
         {!! $content->content !!}
       </div>
       <div class="col-md-7 col-md-offset-1 col-sm-6 col-sm-offset-1 text-center">
-        <img class="cast-shadow" alt="Screenshot" src="{{ $content->imagen }}">
+        <img class="cast-shadow" alt="Screenshot" src="{{ $content->image }}">
       </div>
     </div>
   </div>

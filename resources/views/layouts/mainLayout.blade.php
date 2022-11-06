@@ -36,6 +36,21 @@
 														<li>
 		                            <a href="{{ route('choosingTheClinic') }}" spellcheck="false" data-ms-editor="true">Choosing the Correct Clinic For Your Needs</a>
 		                        </li>
+														<li>
+		                            <a href="{{ route('samplePrice') }}" spellcheck="false" data-ms-editor="true">Sample Price</a>
+		                        </li>
+														<li class="has-dropdown">
+		                            <a href="#" spellcheck="false" data-ms-editor="true">
+		                                Treatments
+		                            </a>
+		                            <ul>
+		                                <li>
+		                                    <a href="{{ route('treatments', ['treatment' => 'teeth_withening']) }}" spellcheck="false" data-ms-editor="true">
+		                                        Teeth Withening
+		                                    </a>
+		                                </li>
+		                            </ul>
+		                        </li>
 		                        {{-- <li class="has-dropdown">
 		                            <a href="#" spellcheck="false" data-ms-editor="true">
 		                                Mega Menu

@@ -18,6 +18,8 @@ Route::get('/home', function () {
     return view('welcome');
 });
 
-Route::get('/', [StaticPagesController::class, 'home'])-> name('home');
+Route::get('/', [StaticPagesController::class, 'home'])->name('home');
 Route::get('/what-is-los-algodones', [StaticPagesController::class, 'whatIsLosAlgodones'])->name('whatIsLosAlgodones');
 Route::get('/choosing-the-clinic', [StaticPagesController::class, 'choosingTheClinic'])->name('choosingTheClinic');
+Route::get('/sample-price', [StaticPagesController::class, 'samplePrice'])->name('samplePrice');
+Route::get('/treatments/{treatment}', [StaticPagesController::class, 'treatments'])->name('treatments');

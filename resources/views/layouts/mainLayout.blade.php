@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -47,6 +46,11 @@
 		                                <li>
 		                                    <a href="{{ route('treatments', ['treatment' => 'teeth_withening']) }}" spellcheck="false" data-ms-editor="true">
 		                                        Teeth Withening
+		                                    </a>
+		                                </li>
+																		<li>
+		                                    <a href="{{ route('treatments', ['treatment' => 'dental_implants']) }}" spellcheck="false" data-ms-editor="true">
+		                                        Dental Implants
 		                                    </a>
 		                                </li>
 		                            </ul>

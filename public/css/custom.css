@@ -34,3 +34,12 @@ tbody > tr:hover > .cell-primary {
   background-color: #aa3163;
   color: #fff;
 }
+
+/* Alerts */
+.alert-dismissible {
+  position: fixed;
+  top: 60px;
+  right: 15px;
+  z-index: 999;
+  background-color: #fff;
+}

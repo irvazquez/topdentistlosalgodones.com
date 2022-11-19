@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FormController;
 use App\Http\Controllers\StaticPagesController;
 
 /*
@@ -23,3 +24,5 @@ Route::get('/what-is-los-algodones', [StaticPagesController::class, 'whatIsLosAl
 Route::get('/choosing-the-clinic', [StaticPagesController::class, 'choosingTheClinic'])->name('choosingTheClinic');
 Route::get('/sample-price', [StaticPagesController::class, 'samplePrice'])->name('samplePrice');
 Route::get('/treatments/{treatment}', [StaticPagesController::class, 'treatments'])->name('treatments');
+
+Route::post('/estimate', [FormController::class, 'estimate'])->name('estimateForm');

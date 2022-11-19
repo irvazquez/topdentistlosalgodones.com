@@ -14,6 +14,7 @@
 		@yield('addCss')
   </head>
   <body class="scroll-assist btn-rounded">
+		@yield('flash_message')
 		<div class="nav-container">
 		    <nav>
 		        <div class="nav-bar">
@@ -165,6 +166,7 @@
     <script src="{{ asset('js/flexslider.min.js') }}"></script>
     <script src="{{ asset('js/parallax.js') }}"></script>
     <script src="{{ asset('js/scripts.js') }}"></script>
+		<script src="{{ asset('js/custom.js') }}"></script>
 		@yield('addJs')
   </body>
 </html>

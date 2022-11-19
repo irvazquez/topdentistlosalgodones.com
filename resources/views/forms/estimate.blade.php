@@ -1,36 +1,41 @@
-@section('addCss')
-  <link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" type="text/css" />
-  <style>
-    .dropzone {
-      border: none;
-      background-color: #f5f5f5;
-    }
+@section('flash_message')
+  @if(session('success'))
+    <div class="alert alert-success alert-dismissible" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <div>
+        {{ session('success') }}
+      </div>
+    </div>
+  @endif
+  @if($errors->any())
+    <div class="alert alert-danger alert-dismissible" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <div>
+        <ul>
+          @foreach($errors->all() as $error)
+            <li>{{ $error }}</li>
+          @endforeach
+        </ul>
+      </div>
+    </div>
+  @endif
 
-    .dropzone .dz-message .dz-button {
-      font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-weight: 500;
-      color: #777;
-      text-transform: uppercase!important;
-      font-size: 12px;
-      line-height: 24px;
-    }
-  </style>
 @endsection
-
-<section class="image-edge pt120 pt-xs-40 pb0">
-  <div class="col-md-6 col-sm-4 p0">
-    <img alt="Screenshot" class="mb-xs-24" src="{{ asset('img/utensilios_cepillo.jpg') }}">
-  </div>
+<section class="pt120 pt-xs-40 pb0">
   <div class="container">
-    <div class="col-md-5 col-md-offset-1 col-sm-7 col-sm-offset-1 v-align-transform right">
+    <div class="col-md-12">
       <h3 class="mb40 mb-xs-16" spellcheck="false" data-ms-editor="true">GET A FREE ESTIMATE</h3>
       <form
         id="estimate"
-        class="form-email"
+        method="POST"
         data-success="Thanks for your submission, we will be in touch shortly."
         data-error="Please fill all fields correctly."
         enctype="multipart/form-data"
-        action="#"
+        action="{{ route('estimateForm') }}"
       >
         @csrf
         @method('POST')
@@ -66,21 +71,20 @@
           spellcheck="false"
           data-ms-editor="true"
         ></textarea>
-        <div
-          class="dropzone"
-          id="files"
-          style="margin-bottom: 24px"
-        ></div>
+        <div class="mb-3">
+          {{-- <label for="formFile" class="form-label">Send</label> --}}
+          <input
+            id="fileImages"
+            class="form-control"
+            type="file"
+            name="files[]"
+            accept="image/*"
+            id="formFile"
+            multiple
+          >
+      </div>
         <button type="submit">Send Message</button>
       </form>
     </div>
   </div>
 </section>
-
-@section('addJs')
-  <script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
-  <script>
-    Dropzone.autoDiscover = false;
-    $("div#files").dropzone({ url: "#" });
-  </script>
-@endsection

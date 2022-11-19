@@ -72,7 +72,7 @@
           data-ms-editor="true"
         ></textarea>
         <div class="mb-3">
-          <label for="formFile" class="form-label">Max: 5 images, Max: 2 MB per images (OPTIONAL)</label>
+          <label for="formFile" class="form-label">Maximum of 4 images (OPTIONAL 2 MB per image)</label>
           <input
             id="fileImages"
             class="form-control"

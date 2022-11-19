@@ -18,7 +18,7 @@ class FormController extends Controller
       'images' => 'image|mimes:png,jpg,jpeg|max:2048',
     ]);
 
-    $data['to'] = 'tec.isaac.r@gmail.com';
+    $data['to'] = 'info@topdentistslosalgodones.com';
     $data['email'] = request('email');
     $data['name'] = request('name');
     $data['phone'] = request('phone');

@@ -497,6 +497,96 @@ class StaticPagesController extends Controller
                                 </h3>',
                         ],
                     ],
+                    (object) [
+                        'template' => 'text_center',
+                        'content' => (object) [
+                            'class' => 'bg-dark',
+                            'title' => 'Full Mouth Dental Implants Mexico',
+                            'content' => '<p>
+                                    All on 4, All on 6, Snap-on Dentures, 3 on 6 Dental Implants with Fixed Hybrid, Zirconia (Prettau), Nano Ceramic (Crystal Ultra)
+                                </p>',
+                        ],
+                    ],
+                    (object) [
+                        'template' => 'two_columns',
+                        'content' => (object) [
+                            'class' => null,
+                            'column1' => '<h3 spellcheck="false">All on 4 Dental Implants Mexico</h3>
+                                <p>
+                                    All on 4 Treatment in Mexico consist in a couple factors, for example The amount of bone available, The type of final restoration,
+                                    <br />
+                                    And the Temporary restoration. Usually these treatments are done in two phases,
+                                </p>',
+                            'column2' => '<p>
+                                    The first phase might include 4 implants and a temporary restoration and a final restoration usually a fixed hybrid denture.
+                                    <br />
+                                    Find a location that does these treatments screw-retained not cemented. A fully-equipped place in order to do these treatments correctly in a short time frame.
+                                </p>',
+                            'center' => null,
+                        ],
+                    ],
+                    (object) [
+                        'template' => 'two_columns',
+                        'content' => (object) [
+                            'class' => 'bg-dark',
+                            'column1' => '<h3 spellcheck="false">All on 6 Dental Implants Mexico</h3>
+                                <p>
+                                    All on 6 is a great option for people who have good bones, are willing to do sinus lifts. These patients need more support than just 4 implants or a heavier restoration like a prettau bridge.
+                                </p>',
+                            'column2' => '<p>
+                                    Prices usually incresase around 20% compared to the all on 4 Treatment. It is important to find a clinic that will do this restoration screw-retained and no cemented as cemented restoration coannot be removed and are a risk in the long run.
+                                </p>',
+                            'center' => null,
+                        ],
+                    ],
+                    (object) [
+                        'template' => 'two_columns',
+                        'content' => (object) [
+                            'class' => null,
+                            'column1' => '<h3 spellcheck="false">3 on 6 Dental Implants Mexico</h3>
+                                <p>
+                                    This procedure will create permanent teeth using 3 bridges supported by two dental implants each.
+                                </p>',
+                            'column2' => '<p>
+                                    To anchor the prosthetic teeth in place, the dentist will placed six implants in the lower or upper jawbone permanently.
+                                </p>',
+                            'center' => '<p>
+                                    Their Main Advantage over All on 4 is that there is no need for an acrylic gumline. The average price for this treatment in USA and Canada is around USD 15,000.
+                                </p>',
+                        ],
+                    ],
+                ];
+                break;
+
+            case 'dental_veneers':
+                $content = [
+                    (object) [
+                        'template' => 'wide_project',
+                        'content' => (object) [
+                            'image' => asset('img/treatments/dental_veneers.jpg'),
+                            'title' => 'dental veneers',
+                            'content' => null,
+                        ],
+                    ],
+                    (object) [
+                        'template' => 'text_center',
+                        'content' => (object) [
+                            'class' => null,
+                            'title' => null,
+                            'content' => '<p>
+                                    Veneers are made from various types of porcelain or ceramic, these include:
+                                </p>
+                                <p>
+                                    Pressed ceramic: If you’re looking for dental veneers in Mexico, these are typically stronger, but they are thicker than other types of Veneers.
+                                </p>
+                                <p>
+                                    Stacked ceramic: veneers allow ceramists the opportunity to create more precise and specialized veneers, suited to a patient’s individual needs. Usually a little weaker because of the porcelain work.
+                                </p>
+                                <p>
+                                    Lithium disilicate: It is only possible to create these types of veneers with CAD/CAM technology. Lithium disilicate is a new type of dental porcelain deemed the strongest material for veneers.
+                                </p>',
+                        ],
+                    ],
                 ];
                 break;
         }

@@ -16,114 +16,119 @@
   <body class="scroll-assist btn-rounded">
 		@yield('flash_message')
 		<div class="nav-container">
-		    <nav>
-		        <div class="nav-bar">
-		            <div class="module left">
-		                <a href="{{ route('home') }}">
-		                    <img class="logo logo-light" alt="Foundry" src="{{ asset('img/logo_top_light.png') }}">
-		                    <img class="logo logo-dark" alt="Foundry" src="{{ asset('img/logo_top_dark.png') }}">
-		                </a>
-		            </div>
-		            <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
-		                <i class="ti-menu"></i>
-		            </div>
-		            <div class="module-group right">
-		                <div class="module left">
-		                    <ul class="menu">
-		                        <li>
-		                            <a href="{{ route('whatIsLosAlgodones') }}" spellcheck="false" data-ms-editor="true">What Is Los Algodones?</a>
-		                        </li>
+			<nav>
+				<div class="nav-bar">
+					<div class="module left">
+							<a href="{{ route('home') }}">
+									<img class="logo logo-light" alt="Foundry" src="{{ asset('img/logo_top_light.png') }}">
+									<img class="logo logo-dark" alt="Foundry" src="{{ asset('img/logo_top_dark.png') }}">
+							</a>
+					</div>
+					<div class="module widget-handle mobile-toggle right visible-sm visible-xs">
+							<i class="ti-menu"></i>
+					</div>
+					<div class="module-group right">
+						<div class="module left">
+							<ul class="menu">
+								<li>
+									<a href="{{ route('whatIsLosAlgodones') }}" spellcheck="false" data-ms-editor="true">What Is Los Algodones?</a>
+								</li>
+								<li>
+									<a href="{{ route('choosingTheClinic') }}" spellcheck="false" data-ms-editor="true">Choosing the Correct Clinic For Your Needs</a>
+								</li>
+								<li>
+									<a href="{{ route('samplePrice') }}" spellcheck="false" data-ms-editor="true">Sample Price</a>
+								</li>
+								<li class="has-dropdown">
+										<a href="#" spellcheck="false" data-ms-editor="true">
+												Treatments
+										</a>
+										<ul>
+												<li>
+													<a href="{{ route('treatments', ['treatment' => 'teeth_withening']) }}" spellcheck="false" data-ms-editor="true">
+														Teeth Withening
+													</a>
+												</li>
+												<li>
+													<a href="{{ route('treatments', ['treatment' => 'dental_implants']) }}" spellcheck="false" data-ms-editor="true">
+														Dental Implants
+													</a>
+												</li>
+												{{-- <li>
+													<a href="{{ route('treatments', ['treatment' => 'dental_veneers']) }}" spellcheck="false" data-ms-editor="true">
+														Dental Veneers
+													</a>
+												</li> --}}
+										</ul>
+								</li>
+								{{-- <li class="has-dropdown">
+										<a href="#" spellcheck="false" data-ms-editor="true">
+												Mega Menu
+										</a>
+										<ul class="mega-menu">
+												<li>
+														<ul>
+																<li>
+																		<span class="title" spellcheck="false" data-ms-editor="true">Column 1</span>
+																</li>
+																<li>
+																		<a href="#" spellcheck="false" data-ms-editor="true">Single</a>
+																</li>
+														</ul>
+												</li>
+												<li>
+														<ul>
+																<li>
+																		<span class="title" spellcheck="false" data-ms-editor="true">Column 2</span>
+																</li>
+																<li>
+																		<a href="#" spellcheck="false" data-ms-editor="true">Single</a>
+																</li>
+														</ul>
+												</li>
+										</ul>
+								</li>
+								<li class="has-dropdown">
+										<a href="#" spellcheck="false" data-ms-editor="true">
+												Single Dropdown
+										</a>
+										<ul>
+												<li class="has-dropdown">
+														<a href="#" spellcheck="false" data-ms-editor="true">
+																Second Level
+														</a>
+														<ul>
+																<li>
+																		<a href="#" spellcheck="false" data-ms-editor="true">
+																				Single
+																		</a>
+																</li>
+														</ul>
+												</li>
+										</ul>
+								</li> --}}
+							</ul>
+						</div>
+							
+						{{-- <div class="module widget-handle language left">
+								<ul class="menu">
+										<li class="has-dropdown">
+												<a href="#" spellcheck="false" data-ms-editor="true">ENG</a>
+												<ul>
 														<li>
-		                            <a href="{{ route('choosingTheClinic') }}" spellcheck="false" data-ms-editor="true">Choosing the Correct Clinic For Your Needs</a>
-		                        </li>
+																<a href="#" spellcheck="false" data-ms-editor="true">French</a>
+														</li>
 														<li>
-		                            <a href="{{ route('samplePrice') }}" spellcheck="false" data-ms-editor="true">Sample Price</a>
-		                        </li>
-														<li class="has-dropdown">
-		                            <a href="#" spellcheck="false" data-ms-editor="true">
-		                                Treatments
-		                            </a>
-		                            <ul>
-		                                <li>
-		                                    <a href="{{ route('treatments', ['treatment' => 'teeth_withening']) }}" spellcheck="false" data-ms-editor="true">
-		                                        Teeth Withening
-		                                    </a>
-		                                </li>
-																		<li>
-		                                    <a href="{{ route('treatments', ['treatment' => 'dental_implants']) }}" spellcheck="false" data-ms-editor="true">
-		                                        Dental Implants
-		                                    </a>
-		                                </li>
-		                            </ul>
-		                        </li>
-		                        {{-- <li class="has-dropdown">
-		                            <a href="#" spellcheck="false" data-ms-editor="true">
-		                                Mega Menu
-		                            </a>
-		                            <ul class="mega-menu">
-		                                <li>
-		                                    <ul>
-		                                        <li>
-		                                            <span class="title" spellcheck="false" data-ms-editor="true">Column 1</span>
-		                                        </li>
-		                                        <li>
-		                                            <a href="#" spellcheck="false" data-ms-editor="true">Single</a>
-		                                        </li>
-		                                    </ul>
-		                                </li>
-		                                <li>
-		                                    <ul>
-		                                        <li>
-		                                            <span class="title" spellcheck="false" data-ms-editor="true">Column 2</span>
-		                                        </li>
-		                                        <li>
-		                                            <a href="#" spellcheck="false" data-ms-editor="true">Single</a>
-		                                        </li>
-		                                    </ul>
-		                                </li>
-		                            </ul>
-		                        </li>
-		                        <li class="has-dropdown">
-		                            <a href="#" spellcheck="false" data-ms-editor="true">
-		                                Single Dropdown
-		                            </a>
-		                            <ul>
-		                                <li class="has-dropdown">
-		                                    <a href="#" spellcheck="false" data-ms-editor="true">
-		                                        Second Level
-		                                    </a>
-		                                    <ul>
-		                                        <li>
-		                                            <a href="#" spellcheck="false" data-ms-editor="true">
-		                                                Single
-		                                            </a>
-		                                        </li>
-		                                    </ul>
-		                                </li>
-		                            </ul>
-		                        </li> --}}
-		                    </ul>
-		                </div>
-		                
-		                {{-- <div class="module widget-handle language left">
-		                    <ul class="menu">
-		                        <li class="has-dropdown">
-		                            <a href="#" spellcheck="false" data-ms-editor="true">ENG</a>
-		                            <ul>
-		                                <li>
-		                                    <a href="#" spellcheck="false" data-ms-editor="true">French</a>
-		                                </li>
-		                                <li>
-		                                    <a href="#" spellcheck="false" data-ms-editor="true">Deutsch</a>
-		                                </li>
-		                            </ul>
-		                        </li>
-		                    </ul>
-		                </div> --}}
-		            </div>
-		            
-		        </div>
-		    </nav>
+																<a href="#" spellcheck="false" data-ms-editor="true">Deutsch</a>
+														</li>
+												</ul>
+										</li>
+								</ul>
+						</div> --}}
+					</div>
+						
+				</div>
+			</nav>
 		</div>
 
 		<div class="main-container">

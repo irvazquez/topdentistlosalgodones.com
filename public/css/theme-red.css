@@ -545,7 +545,7 @@ ul.lead li {
 }
 /*!---------- 4. COLOURS ----------*/
 .bg-primary {
-  background: #aa3163 !important;
+  background: #aa3163;
 }
 .bg-secondary {
   background: #f8f8f8;
@@ -560,10 +560,10 @@ ul.lead li {
   color: #666;
 }
 .color-primary {
-  color: #aa3163 !important;
+  color: #aa3163;
 }
 .color-red {
-  color: #aa3163 !important;
+  color: #aa3163;
 }
 .color-white {
   color: #fff;

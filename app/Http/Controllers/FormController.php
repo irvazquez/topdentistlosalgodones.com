@@ -39,7 +39,7 @@ class FormController extends Controller
     }
 
     Mail::send('emails.estimate', ['data' => $data], function ($message) use ($data, $filename) {
-      $message->to($data['email'], $data['email'])
+      $message->to($data['to'])
         ->subject($data['title']);
       foreach ($filename as $image) {
         $message->attach($image);

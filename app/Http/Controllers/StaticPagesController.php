@@ -587,6 +587,131 @@ class StaticPagesController extends Controller
                                 </p>',
                         ],
                     ],
+                    (object) [
+                        'template' => 'right_imagen_box_text',
+                        'content' => (object) [
+                            'class' => 'bg-dark',
+                            'image' => asset('img/treatments/veneers.jpg'),
+                            'content' => '<h3>Two Most Common Veneers Brands In Mexico</h3>
+                                    <p>
+                                        There are several trusted and reputable manufacturers for Dental Veneers in Mexico but, among the most popular are: IPS Empress® and IPS e.max® Each of the top-rated brands most used for cosmetic dentistry has its advantages, and each of the best smile designers and top dental clinics favors various brands. If a potential patient feels strongly about one particular brand for his dental treatment, it is best to discuss this with the dentist during the initial consultation.
+                                    </p>
+                                    <h4>The Mock-Up / Wax-Up</h4>
+                                ',
+                        ],
+                    ],
+                    (object) [
+                        'template' => 'text_center',
+                        'content' => (object) [
+                            'class' => null,
+                            'title' => 'Dental Veneers in Mexico First Consultation',
+                            'content' => '<p>
+                                    After your first consultation usually, the dentist will create a mock-up this will help them with the temporaries and will give you a rough idea of the outcome.
+                                </p>
+                                <p>
+                                    The dental clinics in Mexico use various methods to create these mock-ups.
+                                </p>
+                                <p>
+                                    While some dentists use old-fashioned wax impressions, others use state-of-the-art technology to create three-dimensional computer images.
+                                </p>
+                                <p>
+                                    Neither method is better than the other. The important part of this process is to see that the dentist works with care and precision to create the most accurate and beautifully rendered representation of the final outcome.
+                                </p>',
+                        ],
+                    ],
+                    (object) [
+                        'template' => 'accordion',
+                        'content' => (object) [
+                            'class' => 'bg-dark',
+                            'title' => 'Why get veneers in Mexico?',
+                            'elements' => [
+                                (object) [
+                                    'title' => 'Teeth Worn Enamel',
+                                    'content' => '<p>
+                                            If your teeth are worn down dental veneers, might not be the best option for you most of the time Dental Crowns or, A Full Mouth Restoration Might be the Best Option.
+                                            <br />
+                                            Veneers are more fragile and are not meant for people who grind their teeth or have a collapsed bite.
+                                            <br />
+                                            A combination of crowns, and veneers to regain the verticle dimension might be the best for your case, other things to take into consideration your habits (soft drink, tea, or coffee consumption, smoking, medication use, etc.).
+                                        </p>',
+                                ],
+                                (object) [
+                                    'title' => 'Does the placement procedure hurt?',
+                                    'content' => '<p>
+                                            No, the placement of veneers is a painless procedure. Dentists numb the tooth and the surrounding area before removing enamel and in many cases, the patients don’t need an anesthetic.
+                                            <br />
+                                            Apart from adjusting to the change, there may only be a slight sensitivity to the removal of enamel which lasts a couple of weeks.
+                                        </p>',
+                                ],
+                                (object) [
+                                    'title' => 'Can I get veneers if I have gum disease or dental decay?',
+                                    'content' => '<p>
+                                            All potential patients should have good oral health. While cavities and gum disease do not disqualify anyone from receiving veneers, it is best to treat the condition before placing veneers to prevent further damage and decay.
+                                        </p>',
+                                ],
+                                (object) [
+                                    'title' => 'What happens if I only get veneers on my upper teeth?',
+                                    'content' => '<p>
+                                            Because veneers are created and custom made to match the natural teeth, it is possible to get them on only the upper, or lower teeth.
+                                        </p>',
+                                ],
+                                (object) [
+                                    'title' => 'How many veneers should I get?',
+                                    'content' => '<p>
+                                            The number largely depends on the size of the patient’s smile and how wide their grin is.
+                                            <br />
+                                            Patients show anything from six to twelve teeth when they smile. It is also largely dependent on personal goals and what the desired outcome is.
+                                        </p>',
+                                ],
+                            ],
+                        ],
+                    ],
+                    (object) [
+                        'template' => 'two_columns',
+                        'content' => (object) [
+                            'class' => null,
+                            'column1' => '<h3>Tooth Sensitivity</h3>
+                                <p>
+                                    Veneers are considered a low-risk treatment but there is the potential to feel some slight tooth sensitivity.
+                                    <br />
+                                    The sensitivity could be enhanced by very cold or hot foods and while this is normal to feel for a few weeks, there may be a problem if it persists for more than three to six months.
+                                    <br />
+                                    The problem could lie with leaking cement or minor nerve damage.
+                                </p>',
+                            'column2' => '<h3>Dental Damage</h3>
+                                <p>
+                                    There is a small risk that the underlying dentin could become damaged during the enamel removal process.
+                                    <br />
+                                    A poorly fitted veneer could also cause a change in the alignment of the teeth which may result in sensitivity, discomfort, jaw pain or bruxism
+                                </p>',
+                            'center' => null,
+                        ],
+                    ],
+                    (object) [
+                        'template' => 'two_columns',
+                        'content' => (object) [
+                            'class' => 'bg-dark',
+                            'column1' => '<h3>Future Replacement</h3>
+                                <p>
+                                    While quality veneers that are maintained correctly can last decades, they will eventually need replacement.
+                                    <br />
+                                    The next replacement process will too need some enamel to be removed. Even though it is a small amount, there may not have been enough enamel in the first place which can result in an alternative treatment being sought.
+                                    <br />
+                                    This is something that should be seen when the first set of veneers are considered.
+                                </p>',
+                            'column2' => '<h3>Temporary Side Effects</h3>
+                                <p>
+                                    It is uncommon for patients to feel permanent sensitivity after receiving veneers but there may be some temporary discomfort.
+                                    <br />
+                                    It is typically only in the first one to three weeks that a patient will feel this discomfort.
+                                </p>',
+                            'center' => '<p>
+                                    Avoiding certain foods and drinks can help patients control the discomfort and sensitivity.
+                                    <br />
+                                    It may even be an option to use desensitizing toothpaste for about six months following the procedure.
+                                </p>',
+                        ],
+                    ],
                 ];
                 break;
         }

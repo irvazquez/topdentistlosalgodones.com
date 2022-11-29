@@ -54,6 +54,21 @@
 														Dental Implants
 													</a>
 												</li>
+												<li>
+													<a href="{{ route('treatments', ['treatment' => 'dental_veneers']) }}" spellcheck="false" data-ms-editor="true">
+														Dental Veneers
+													</a>
+												</li>
+												<li>
+													<a href="{{ route('treatments', ['treatment' => 'dental_crowns']) }}" spellcheck="false" data-ms-editor="true">
+														Dental Crowns
+													</a>
+												</li>
+												<li>
+													<a href="{{ route('treatments', ['treatment' => 'root_canals']) }}" spellcheck="false" data-ms-editor="true">
+														Root Canals
+													</a>
+												</li>
 												{{-- <li>
 													<a href="{{ route('treatments', ['treatment' => 'dental_veneers']) }}" spellcheck="false" data-ms-editor="true">
 														Dental Veneers

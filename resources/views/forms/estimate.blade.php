@@ -25,7 +25,7 @@
   @endif
 
 @endsection
-<section class="pt120 pt-xs-40 pb0">
+<section class="pt120 pt-xs-40 pb0" id="getEstimate">
   <div class="container">
     <div class="col-md-12">
       <h3 class="mb40 mb-xs-16" spellcheck="false" data-ms-editor="true">GET A FREE ESTIMATE</h3>

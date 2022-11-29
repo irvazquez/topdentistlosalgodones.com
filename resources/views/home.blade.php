@@ -18,6 +18,7 @@
                   with Foundry and Variant Page Builder.
               </p>
               <a class="btn btn-lg" href="#" spellcheck="false" data-ms-editor="true">Start Exploring</a> --}}
+              <a class="btn btn-lg" href="#getEstimate" spellcheck="false" data-ms-editor="true">Get a Free Estimate</a>
             </div>
           </div>
         </div>
@@ -39,6 +40,7 @@
                   care.
               </p>
               <a class="btn btn-lg" href="#" spellcheck="false" data-ms-editor="true">Start Exploring</a> --}}
+              <a class="btn btn-lg" href="#getEstimate" spellcheck="false" data-ms-editor="true">Get a Free Estimate</a>
             </div>
           </div>
         </div>
@@ -58,6 +60,7 @@
                   with Foundry and Variant Page Builder.
               </p>
               <a class="btn btn-lg" href="#" spellcheck="false" data-ms-editor="true">Start Exploring</a> --}}
+              <a class="btn btn-lg" href="#getEstimate" spellcheck="false" data-ms-editor="true">Get a Free Estimate</a>
             </div>
           </div>
         </div>

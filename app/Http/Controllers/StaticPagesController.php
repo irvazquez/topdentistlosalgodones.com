@@ -714,6 +714,155 @@ class StaticPagesController extends Controller
                     ],
                 ];
                 break;
+
+            case 'dental_crowns':
+                $content = [
+                    (object) [
+                        'template' => 'wide_project',
+                        'content' => (object) [
+                            'image' => asset('img/treatments/dental_crowns.jpg'),
+                            'title' => 'dental crowns',
+                            'content' => null,
+                        ],
+                    ],
+                    (object) [
+                        'template' => 'text_center',
+                        'content' => (object) [
+                            'class' => null,
+                            'title' => null,
+                            'content' => '<p>
+                            A dental crown is a hollow false tooth, which is built to fit over your existing tooth after it has been trimmed and shaped. The crown covers up and “caps” the entire tooth, covering it all the way down to the gum line and restoring the shape, color, and function of your tooth. 
+                                </p>',
+                        ],
+                    ],
+                    (object) [
+                        'template' => 'accordion',
+                        'content' => (object) [
+                            'class' => 'bg-dark',
+                            'title' => null,
+                            'elements' => [
+                                (object) [
+                                    'title' => 'How Long Will My Crown Last?',
+                                    'content' => '<p>
+                                            Porcelain crowns usually last at least 15 years with proper care and maintenance, and it’s not uncommon for crowns to last 20+ years. The porcelain ceramic materials used to build your crown are very durable and similar to your enamel in strength and hardness, so you can expect your crown to last a very long time. 
+                                        </p>'
+                                ],
+                                (object) [
+                                    'title' => 'Why Would I Need A Dental Crown?',
+                                    'content' => '<p>
+                                            Dental crowns are needed to repair teeth that are too decayed to treat with a filling, and are also used to treat infected teeth after root canals, or to repair a tooth that’s been broken or cracked due to oral trauma.
+                                        </p>',
+                                ],
+                                (object) [
+                                    'title' => 'Are dental crowns safe?',
+                                    'content' => '<p>
+                                            Yes, dental crowns are generally very safe.  The only real problem that may be an issue is an allergy to the material used, typically a metal allergy.  If you have a known sensitivity or allergy to any metal, inform the dentist of this and together you can decide what will be best for you.
+                                        </p>',
+                                ],
+                                (object) [
+                                    'title' => 'Are dental crowns painful?',
+                                    'content' => '<p>
+                                            During the procedure, you will be numbed with an anesthetic so that you do not feel any pain while your tooth is being prepared for the crown. As with all dental work, some sensitivity is to be expected after the procedure. Typically this should leave within a week or so. If there is still sensitivity or soreness that lingers, contact the dentist with any questions. Sometimes the bite is not correct and the crown is high in a spot, this will cause soreness and can easily be fixed by the dentist adjusting the bite.
+                                        </p>',
+                                ],
+                            ],
+                        ],
+                    ],
+                    (object) [
+                        'template' => 'two_columns',
+                        'content' => (object) [
+                            'class' => null,
+                            'column1' => '<p>
+                                    Dental Crowns are quite similar to veneers as they are custom made to match the shade of the teeth and they are tooth-shaped porcelain caps that are placed over the damaged tooth.
+                                    <br />
+                                    However, unlike veneers, dental crowns extend all the way around the damaged tooth which means a significant amount of the damaged structure must be removed.                            
+                                </p>',
+                            'column2' => '<p>
+                                    They are the best course of treatment for patients who have suffered considerable amounts of damage to the structure and strength of a tooth.
+                                    <br />
+                                    Dental crowns are less effective for those who are simply looking to enhance the cosmetics of their teeth. For cosmetic purposes, veneers are the better option as they are more affordable and less invasive.
+                                </p>',
+                            'center' => null,
+                        ],
+                    ],
+                ];
+                break;
+            
+            case 'root_canals':
+                $content = [
+                    (object) [
+                        'template' => 'wide_project',
+                        'content' => (object) [
+                            'image' => asset('img/treatments/root_canals.jpg'),
+                            'title' => 'root canals',
+                            'content' => null,
+                        ],
+                    ],
+                    (object) [
+                        'template' => 'text_center',
+                        'content' => (object) [
+                            'class' => null,
+                            'title' => null,
+                            'content' => '<p>
+                                    Root canal treatment is done to help salvage badly damaged tooth. If you have a fractured or decayed tooth, talk to your dentist to find out if a root canal can help fix the problem.
+                                </p>',
+                        ],
+                    ],
+                    (object) [
+                        'template' => 'accordion',
+                        'content' => (object) [
+                            'class' => 'bg-dark',
+                            'title' => null,
+                            'elements' => [
+                                (object) [
+                                    'title' => 'Will I lose my tooth?',
+                                    'content' => '<p>
+                                            The answer to this question depends on the severity of your case. If your tooth is not too badly decayed, your dentist will remove the decayed part and leave the remaining part of the tooth in your mouth, then cover it up with dental filling or a dental crown.
+                                            <br />
+                                            If the damage or decay is extensive, your dentist will recommend extracting the tooth and replacing it with an artificial tooth through the use of a dental implant.
+                                        </p>',
+                                ],
+                                (object) [
+                                    'title' => 'Is a root canal painful?',
+                                    'content' => '<p>
+                                            There is a misconception that root canals are painful, but the truth is they are not. Thanks to technological advances, root canals are about as painful as getting a dental filling, which is not painful at all.
+                                        </p>',
+                                ],
+                                (object) [
+                                    'title' => 'How long does the procedure take?',
+                                    'content' => '<p>
+                                            Root canals typically can be done in one visit to the dentist and usually do not take more than two hours. If your problem is severe, you will likely need at least two visits to the dentist to complete the procedure.
+                                        </p>',
+                                ],
+                                (object) [
+                                    'title' => 'Is it cheaper to have the tooth removed?',
+                                    'content' => '<p>
+                                            Extracting the infected tooth is an alternative to undergoing a root canal, but that option should not be on the table unless there is nothing that can be done to salvage the damaged tooth. Extracting the tooth also will not save you any money because you will be charged for the extraction and will also have to pay for the implant to replace the removed tooth, which will be more expensive than the root canal itself.
+                                            <br />
+                                            Having your teeth pulled can lead to the loss of bone density in your jaw, especially if the missing tooth is not replaced soon after it was extracted. The loss of bone density can affect your facial structure and make you appear older than you are.
+                                        </p>',
+                                ],
+                                (object) [
+                                    'title' => 'Do I need a root canal if the tooth does not hurt?',
+                                    'content' => '<p>
+                                            If your tooth is decayed and you leave it untreated, you will make matters worse because the decay will spread to other teeth. If you wait until you are in a significant amount of pain, your dentist might have to perform a root canal on more than one tooth. This will cost you more money than if you had taken care of it much earlier.
+                                        </p>',
+                                ],
+                            ],
+                        ],
+                    ],
+                    (object) [
+                        'template' => 'text_center',
+                        'content' => (object) [
+                            'class' => null,
+                            'title' => null,
+                            'content' => '<p>
+                                    Root canal treatment is extremely safe and effective, especially when performed by a trained endodontic specialist (a dental professional who specializes in root canals). Root canals have been performed for over 200 years, and advancements in technology, instruments, techniques, disinfectants, and pain management continue to make the treatment even more predictable and successful. Root canals are intended solely to preserve a natural tooth and prevent any reinfection and are much safer than the alternative to an infected tooth—tooth extraction.
+                                </p>',
+                        ],
+                    ],
+                ];
+                break;
         }
         return view('treatments', ['treatment' => $content]);
     }

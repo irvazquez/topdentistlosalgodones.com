@@ -863,6 +863,114 @@ class StaticPagesController extends Controller
                     ],
                 ];
                 break;
+            
+            case 'dentures':
+                $content = [
+                    (object) [
+                        'template' => 'wide_project',
+                        'content' => (object) [
+                            'image' => asset('img/treatments/dentures.jpg'),
+                            'title' => 'denture',
+                            'content' => null,
+                        ],
+                    ],
+                    (object) [
+                        'template' => 'accordion',
+                        'content' => (object) [
+                            'class' => null,
+                            'title' => null,
+                            'elements' => [
+                                (object) [
+                                    'title' => 'What types of dentures are there?',
+                                    'content' => '<p>
+                                            Dentures may replace all or only some of the teeth. The dentures that replace all the teeth are known as complete dentures and they rest on the gums that cover the jawbones. The stability and retention of these dentures can be improved by attaching them to dental implants. Dentures that replace some but not all of the teeth are known as partial dentures. They attach to the teeth that are still present and also cover and rest on the gums and bone where the teeth are missing. Dental implants can also be used to restore and stabilize partial dentures as well.
+                                        </p>',
+                                ],
+                                (object) [
+                                    'title' => 'Can I sleep in my dentures?',
+                                    'content' => '<p>
+                                            Yes, you can wear your dentures at night but it is preferred that they be removed. You should remove your dentures at night and this will give your gums and bone a chance to relax from the pressure of the denture during the day. If you need to wear your dentures for social reasons or to prevent your jaws from over closing, you should find time during the day to properly clean your mouth and your prostheses. You should never wear your dentures 24 hours a day without preforming proper oral hygiene. Dentures should be cleaned at night and stored in water during the night.
+                                        </p>',
+                                ],
+                                (object) [
+                                    'title' => 'Can I eat normally with dentures?',
+                                    'content' => '<p>
+                                            Most patients need to learn how to use dentures properly and as a result, it takes a little time to get used to them. After a while, you should be able to eat fairly normally, but it may take more time to get comfortable with harder foods or sticky foods. Using a small amount of denture adhesive (no more than three or four pea-sized dabs on each denture) may help stabilize the dentures and help hold them in place while you learn how to get comfortable with them and may make the learning process easier.
+                                            <br />
+                                            Chewing gum: Dentures and chewing gum do not usually work well together, no matter which brand of chewing gum you decide to try. The gum typically sticks to the acrylic plastic in the denture and may break a seal on the dentures, which will loosen them as a result. Gum may remain stuck to the denture and eventually harden and discolor. Ultimately, if you wear dentures, you should avoid chewing gum.                                    
+                                        </p>',
+                                ],
+                                (object) [
+                                    'title' => 'How much pain is involved with getting dentures?',
+                                    'content' => '<p>
+                                            When you’re first fitted for new dentures, it’s normal to experience minor irritation, which should fade as your mouth becomes accustomed to them. The period of pain varies. If you’ve previously worn dentures and now have a new set it may take longer. Similarly, if you had some natural teeth present that were removed at the time of the new dentures, the areas where the extractions were performed may be painful or uncomfortable for up to several weeks after the removal of the teeth. Regular visits to your prosthodontist to adjust the dentures as you go through the normal healing process are recommended.
+                                        </p>',
+                                ],
+                                (object) [
+                                    'title' => 'Is it possible to have dentures put in the same day as teeth removal?',
+                                    'content' => '<p>
+                                            Yes, it is possible to have your teeth removed and dentures put in the same day. These dentures are called immediate dentures and you should talk to your prosthodontist to see if that treatment is the best for you.
+                                        </p>',
+                                ],
+                            ],
+                        ],
+                    ],
+                ];
+                break;
+
+            case 'full_mouth_reconstruction':
+                $content = [
+                    (object) [
+                        'template' => 'wide_project',
+                        'content' => (object) [
+                            'image' => asset('img/treatments/full_mouth.jpg'),
+                            'title' => 'full mouth reconstruction',
+                            'content' => null,
+                        ],
+                    ],
+                    (object) [
+                        'template' => 'accordion',
+                        'content' => (object) [
+                            'class' => null,
+                            'title' => null,
+                            'elements' => [
+                                (object) [
+                                    'title' => 'What is a Full Mouth Reconstruction?',
+                                    'content' => '<p>
+                                            Some dental health care centers refer to full mouth reconstruction as full mouth restoration. A full mouth reconstruction dentist rebuilds and restores missing or lost teeth. They combine restorative dentistry with esthetics to improve your dental function and health. Some cosmetic dentistry treatments aim at refining your facial appearance. Reconstructions are essential for people with fractured or lost teeth. Naturally, missing teeth might affect your chewing ability.
+                                            <br />
+                                            Prosthodontists offer a variety of dental care options such as dental crowns, dental bridges, dental implants, tooth bonding and porcelain veneers depending on how severely your teeth are damaged. It is appropriate for both the lower and upper jaw.
+                                        </p>',
+                                ],
+                                (object) [
+                                    'title' => 'What makes someone a good candidate for the procedure?',
+                                    'content' => '<p>
+                                            Any patient who has severe or complicated dental issues is a good candidate for a full mouth restoration. The procedure is diverse enough to meet each patient’s unique needs. Since patients often suffer from a host of dental issues, such as decay, the health of your teeth isn’t too much of a factor in ruling you out as a candidate for the procedure. Issues, such as periodontitis or bone loss in your jaw, can be treated at the beginning of the full mouth restoration process. Patients with periodontitis will likely undergo root planing to thoroughly remove bacteria from under the gum line, and bone grafts will often be performed on patients with bone loss in their jaw, giving them the necessary structure to support any implants that they may need.
+                                        </p>',
+                                ],
+                                (object) [
+                                    'title' => 'How long does a full mouth restoration take to complete?',
+                                    'content' => '<p>
+                                            Full mouth restorations can take a very long time, as they involve multiple different procedures. Some of these procedures, such as tooth extractions or implants, require you to heal for several months before you can undergo more treatments. As a result, full mouth restorations can take anywhere from a few months to over a year. This depends heavily upon your individual case, including how severe your problems are and what treatments you will be undergoing.
+                                        </p>',
+                                ],
+                                (object) [
+                                    'title' => 'Is the process painful?',
+                                    'content' => '<p>
+                                            Thanks to modern anesthetics and technology, you won’t experience any pain during the procedures. Your dentist will ensure that you are completely numb and comfortable before they begin a procedure; at most, you may feel tugging or pressure during some procedures, but you won’t feel any pain. You may experience some soreness during the healing process, but over-the-counter pain medications are usually enough to smooth this over.
+                                        </p>',
+                                ],
+                                (object) [
+                                    'title' => 'How long will it last?',
+                                    'content' => '<p>
+                                            This depends on how well you care for your new smile. If you care for it very well through great oral hygiene and regular checkups, your full smile restoration should last you a lifetime.
+                                        </p>',
+                                ],
+                            ],
+                        ],
+                    ],
+                ];
+                break;
         }
         return view('treatments', ['treatment' => $content]);
     }

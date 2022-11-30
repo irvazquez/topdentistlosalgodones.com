@@ -69,6 +69,16 @@
 														Root Canals
 													</a>
 												</li>
+												<li>
+													<a href="{{ route('treatments', ['treatment' => 'dentures']) }}" spellcheck="false" data-ms-editor="true">
+														Dentures
+													</a>
+												</li>
+												<li>
+													<a href="{{ route('treatments', ['treatment' => 'full_mouth_reconstruction']) }}" spellcheck="false" data-ms-editor="true">
+														Full mouth reconstruction
+													</a>
+												</li>
 												{{-- <li>
 													<a href="{{ route('treatments', ['treatment' => 'dental_veneers']) }}" spellcheck="false" data-ms-editor="true">
 														Dental Veneers

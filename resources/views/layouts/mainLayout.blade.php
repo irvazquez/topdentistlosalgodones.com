@@ -39,6 +39,9 @@
 								<li>
 									<a href="{{ route('samplePrice') }}" spellcheck="false" data-ms-editor="true">Sample Price</a>
 								</li>
+								<li>
+									<a href="{{ route('gallery') }}" spellcheck="false" data-ms-editor="true">Our Gallery</a>
+								</li>
 								<li class="has-dropdown">
 										<a href="#" spellcheck="false" data-ms-editor="true">
 												Treatments
@@ -77,6 +80,11 @@
 												<li>
 													<a href="{{ route('treatments', ['treatment' => 'full_mouth_reconstruction']) }}" spellcheck="false" data-ms-editor="true">
 														Full mouth reconstruction
+													</a>
+												</li>
+												<li>
+													<a href="{{ route('treatments', ['treatment' => 'periodontal_disease']) }}" spellcheck="false" data-ms-editor="true">
+														Periodontal Disease
 													</a>
 												</li>
 												{{-- <li>

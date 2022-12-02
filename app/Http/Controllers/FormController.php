@@ -50,6 +50,6 @@ class FormController extends Controller
       File::delete($img);
     }
 
-    return back()->with('success', 'Your mail was sended.');
+    return back()->with('success', 'Your message has been sent. We will answer you ASAP');
   }
 }

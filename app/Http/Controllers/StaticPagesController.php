@@ -971,7 +971,178 @@ class StaticPagesController extends Controller
                     ],
                 ];
                 break;
+            case 'periodontal_disease':
+                $content = [
+                    (object) [
+                        'template' => 'wide_project',
+                        'content' => (object) [
+                            'image' => asset('img/treatments/periodontal_disease.jpg'),
+                            'title' => 'periodontal disease',
+                            'content' => null,
+                        ],
+                    ],
+                    (object) [
+                        'template' => 'accordion',
+                        'content' => (object) [
+                            'class' => null,
+                            'title' => null,
+                            'elements' => [
+                                (object) [
+                                    'title' => 'How can I prevent gum disease?',
+                                    'content' => '<p>
+                                            You can prevent gum disease in three easy steps. The first step, regular brushing, is a given. The second step is flossing, which is where many people get tripped up, but trust us when we say it will go a long way in preventing periodontitis. Brushing can only access 70% of the surface of your tooth. Can you imagine washing only 70% of your body in the shower or sanitizing only 70% of your dishes?
+                                            <br />
+                                            Regular preventive checkups are step three in gum disease prevention. You need to make sure a trusted dentist is checking for the early stages of periodontitis on a regular basis, so you never have to deal with the negative effects of this troubling disease.
+                                        </p>',
+                                ],
+                                (object) [
+                                    'title' => 'Can gum tissues and bone grow back?',
+                                    'content' => '<p>
+                                            For decades, we have had to say no, gum tissues could not grow back, and for years, the protocol for gum disease was scaling and planing. It was the best we could do. Scaling and planing could save your gums and stop any infections, but it could not bring back the gum tissue or bone you had lost.
+                                        </p>',
+                                ],
+                                (object) [
+                                    'title' => 'Can any dentist treat periodontal disease?',
+                                    'content' => '<p>
+                                            Every dentist studies periodontal disease, as its one of the foundational subjects in dental school. But most dentists are qualified only for prevention. If you have a serious case of periodontal disease, you will want to find a periodontist who can actually treat your condition.
+                                        </p>',
+                                ],
+                                (object) [
+                                    'title' => 'What is the difference between periodontal disease and gingivitis?',
+                                    'content' => '<p>
+                                            Gingivitis is a precursor to periodontal disease. It is the earliest stage of periodontal disease, and is the stage where your gums are inflamed. If you have gingivitis, it’s a good time to sit up and take notice that your gums are speaking to you about your health. Partner with your dentist to prevent gingivitis from turning into periodontal disease. It’s a good idea to see your dentist more often than the typical twice-a-year recommendation.
+                                        </p>',
+                                ],
+                                (object) [
+                                    'title' => 'Does periodontal disease lead to any other problems if left unchecked?',
+                                    'content' => '<p>
+                                            The answer is yes. Periodontal disease has been linked to gum disease, heart disease, and strokes, to name a few. Your gums actually create a barrier to protect the rest of your body from inflammation, and periodontitis slowly pulls  your gums away from your teeth, which allows these harmful bacteria to enter your bloodstream.
+                                        </p>',
+                                ],
+                                (object) [
+                                    'title' => 'What are the signs of periodontitis?',
+                                    'content' => '<p>
+                                            Here are a few of the signs that can alert you and your dentist to gingivitis or periodontal disease:
+                                            <ul style="list-style: circle; padding-left: 15px;">
+                                                <li>Gums that bleed when you brush your teeth or floss</li>
+                                                <li>Bad breath</li>
+                                                <li>Changes in the position of your teeth or loose teeth</li>
+                                                <li>Receding gums</li>
+                                                <li>Red, tender, or swollen gums</li>
+                                                <li>A buildup of plaque or tartar on your teeth</li>
+                                                <li>Pain when chewing</li>
+                                                <li>Tooth loss</li>
+                                                <li>Foul taste in your mouth</li>
+                                                <li>An inflammatory response throughout your body</li>
+                                            </ul>
+                                        </p>',
+                                ],
+                            ],
+                        ],
+                    ],
+                ];
+                break;
+
+            default:
+                $content = [
+                    (object) [
+                        'template' => 'text_center',
+                        'content' => (object) [
+                            'class' => null,
+                            'title' => 'OOOOPS! Sorry',
+                            'content' => '<p>The page doesn\'t exist</p>'
+                        ],
+                    ],
+                ];
+                break;
         }
         return view('treatments', ['treatment' => $content]);
+    }
+
+    public function gallery()
+    {
+        $content = [
+            (object) [
+                'template' => 'grid-gallery',
+                'content' => (object) [
+                    'class' => null,
+                    'title' => 'Our Gallery',
+                    'content' => '',
+                    'images' => [
+                        (object) [
+                            'alt' => 'our gallery',
+                            'large' => asset('img/gallery/image00001.jpeg'),
+                            'thumbnail' => asset('img/gallery/image00001.jpeg'),
+                        ],
+                        (object) [
+                            'alt' => 'our gallery',
+                            'large' => asset('img/gallery/image00002.jpeg'),
+                            'thumbnail' => asset('img/gallery/image00002.jpeg'),
+                        ],
+                        (object) [
+                            'alt' => 'our gallery',
+                            'large' => asset('img/gallery/image00003.jpeg'),
+                            'thumbnail' => asset('img/gallery/image00003.jpeg'),
+                        ],
+                        (object) [
+                            'alt' => 'our gallery',
+                            'large' => asset('img/gallery/image00004.jpeg'),
+                            'thumbnail' => asset('img/gallery/image00004.jpeg'),
+                        ],
+                        (object) [
+                            'alt' => 'our gallery',
+                            'large' => asset('img/gallery/image00005.jpeg'),
+                            'thumbnail' => asset('img/gallery/image00005.jpeg'),
+                        ],
+                        (object) [
+                            'alt' => 'our gallery',
+                            'large' => asset('img/gallery/image00006.jpeg'),
+                            'thumbnail' => asset('img/gallery/image00006.jpeg'),
+                        ],
+                        (object) [
+                            'alt' => 'our gallery',
+                            'large' => asset('img/gallery/image00007.jpeg'),
+                            'thumbnail' => asset('img/gallery/image00007.jpeg'),
+                        ],
+                        (object) [
+                            'alt' => 'our gallery',
+                            'large' => asset('img/gallery/image00008.jpeg'),
+                            'thumbnail' => asset('img/gallery/image00008.jpeg'),
+                        ],
+                        (object) [
+                            'alt' => 'our gallery',
+                            'large' => asset('img/gallery/image00009.jpeg'),
+                            'thumbnail' => asset('img/gallery/image00009.jpeg'),
+                        ],
+                        (object) [
+                            'alt' => 'our gallery',
+                            'large' => asset('img/gallery/image00010.jpeg'),
+                            'thumbnail' => asset('img/gallery/image00010.jpeg'),
+                        ],
+                        (object) [
+                            'alt' => 'our gallery',
+                            'large' => asset('img/gallery/image00011.jpeg'),
+                            'thumbnail' => asset('img/gallery/image00011.jpeg'),
+                        ],
+                        (object) [
+                            'alt' => 'our gallery',
+                            'large' => asset('img/gallery/image00012.jpeg'),
+                            'thumbnail' => asset('img/gallery/image00012.jpeg'),
+                        ],
+                        (object) [
+                            'alt' => 'our gallery',
+                            'large' => asset('img/gallery/image00013.jpeg'),
+                            'thumbnail' => asset('img/gallery/image00013.jpeg'),
+                        ],
+                        (object) [
+                            'alt' => 'our gallery',
+                            'large' => asset('img/gallery/image00014.jpeg'),
+                            'thumbnail' => asset('img/gallery/image00014.jpeg'),
+                        ],
+                    ],
+                ],
+            ],
+        ];
+        return view('gallery', ['content' => $content]);
     }
 }

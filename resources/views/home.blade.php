@@ -10,7 +10,13 @@
         <div class="container v-align-transform">
           <div class="row">
             <div class="col-md-6 col-sm-8">
-              <h1 class="mb40 mb-xs-16 large" spellcheck="false" data-ms-editor="true">SAVE UP TO 70% COMPARE TO USA PRICES!!!</h1>
+              <h1
+                class="mb40 mb-xs-16 large animate__animated animate__fadeInLeft"
+                spellcheck="false"
+                data-ms-editor="true"
+                >
+                  SAVE UP TO 70% COMPARE TO USA PRICES!!!
+                </h1>
               {{-- <h6 class="uppercase mb16" spellcheck="false" data-ms-editor="true">A complete block-based solution</h6>
               <p class="lead mb40" spellcheck="false" data-ms-editor="true">
                   Build beautiful, contemporary sites in just moments
@@ -18,7 +24,14 @@
                   with Foundry and Variant Page Builder.
               </p>
               <a class="btn btn-lg" href="#" spellcheck="false" data-ms-editor="true">Start Exploring</a> --}}
-              <a class="btn btn-lg" href="#getEstimate" spellcheck="false" data-ms-editor="true">Get a Free Estimate</a>
+              <a
+                class="btn btn-lg animate__animated animate__fadeInLeft"
+                href="#getEstimate"
+                spellcheck="false"
+                data-ms-editor="true"
+                >
+                  Get a Free Estimate
+                </a>
             </div>
           </div>
         </div>
@@ -30,7 +43,11 @@
         <div class="container v-align-transform">
           <div class="row">
             <div class="col-md-6 col-sm-8">
-              <h1 class="mb40 mb-xs-16 large" spellcheck="false" data-ms-editor="true">
+              <h1
+                class="mb40 mb-xs-16 large animate__animated animate__fadeInLeft"
+                spellcheck="false"
+                data-ms-editor="true"
+              >
                 No other company backs you up like us, even after your dental care
               </h1>
               {{-- <h6 class="uppercase mb16" spellcheck="false" data-ms-editor="true">A complete block-based solution</h6>
@@ -40,7 +57,14 @@
                   care.
               </p>
               <a class="btn btn-lg" href="#" spellcheck="false" data-ms-editor="true">Start Exploring</a> --}}
-              <a class="btn btn-lg" href="#getEstimate" spellcheck="false" data-ms-editor="true">Get a Free Estimate</a>
+              <a
+                class="btn btn-lg animate__animated animate__fadeInLeft"
+                href="#getEstimate"
+                spellcheck="false"
+                data-ms-editor="true"
+              >
+                Get a Free Estimate
+              </a>
             </div>
           </div>
         </div>
@@ -52,7 +76,13 @@
         <div class="container v-align-transform">
           <div class="row">
             <div class="col-md-6 col-sm-8">
-              <h1 class="mb40 mb-xs-16 large" spellcheck="false" data-ms-editor="true">Dental tourism made simple</h1>
+              <h1
+                class="mb40 mb-xs-16 large animate__animated animate__fadeInLeft"
+                spellcheck="false"
+                data-ms-editor="true"
+              >
+                Dental tourism made simple
+              </h1>
               {{-- <h6 class="uppercase mb16" spellcheck="false" data-ms-editor="true">A complete block-based solution</h6>
               <p class="lead mb40" spellcheck="false" data-ms-editor="true">
                   Build beautiful, contemporary sites in just moments
@@ -60,7 +90,14 @@
                   with Foundry and Variant Page Builder.
               </p>
               <a class="btn btn-lg" href="#" spellcheck="false" data-ms-editor="true">Start Exploring</a> --}}
-              <a class="btn btn-lg" href="#getEstimate" spellcheck="false" data-ms-editor="true">Get a Free Estimate</a>
+              <a
+                class="btn btn-lg animate__animated animate__fadeInLeft"
+                href="#getEstimate"
+                spellcheck="false"
+                data-ms-editor="true"
+              >
+                Get a Free Estimate
+              </a>
             </div>
           </div>
         </div>

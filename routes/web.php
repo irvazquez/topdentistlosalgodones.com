@@ -25,5 +25,6 @@ Route::get('/choosing-the-clinic', [StaticPagesController::class, 'choosingTheCl
 Route::get('/sample-price', [StaticPagesController::class, 'samplePrice'])->name('samplePrice');
 Route::get('/treatments/{treatment}', [StaticPagesController::class, 'treatments'])->name('treatments');
 Route::get('/gallery', [StaticPagesController::class, 'gallery'])->name('gallery');
+Route::get('/testimonials', [StaticPagesController::class, 'testimonials'])->name('testimonials');
 
 Route::post('/estimate', [FormController::class, 'estimate'])->name('estimateForm');

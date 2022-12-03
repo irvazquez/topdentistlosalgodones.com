@@ -9,6 +9,7 @@
     <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet" type="text/css" media="all" />
     <link href="{{ asset('css/flexslider.css') }}" rel="stylesheet" type="text/css" media="all" />
     <link href="{{ asset('css/theme-red.css') }}" rel="stylesheet" type="text/css" media="all" />
+		{{-- <link href="{{ asset('css/animate.css') }}" rel="stylesheet" type="text/css" media="all" /> --}}
     <link href="{{ asset('css/custom.css') }}" rel="stylesheet" type="text/css" media="all" />
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
 		@yield('addCss')
@@ -41,6 +42,9 @@
 								</li>
 								<li>
 									<a href="{{ route('gallery') }}" spellcheck="false" data-ms-editor="true">Our Gallery</a>
+								</li>
+								<li>
+									<a href="{{ route('testimonials') }}" spellcheck="false" data-ms-editor="true">Testimonials</a>
 								</li>
 								<li class="has-dropdown">
 										<a href="#" spellcheck="false" data-ms-editor="true">

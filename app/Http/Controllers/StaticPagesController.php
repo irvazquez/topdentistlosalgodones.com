@@ -1145,4 +1145,38 @@ class StaticPagesController extends Controller
         ];
         return view('gallery', ['content' => $content]);
     }
+
+    public function testimonials()
+    {
+        $content = [
+            (object) [
+                'template' => 'wide_project',
+                'content' => (object) [
+                    'image' => asset('img/testimonials.jpg'),
+                    'title' => 'testimonials',
+                    'content' => '<p class="animate__animated animate__fadeInLeft">
+                            Please shared your experience on google.
+                        </p>
+                        <a
+                            class="btn btn-lg animate__animated animate__fadeInLeft"
+                            target="_blank"
+                            rel="nofollow noopener noreferrer"
+                            href="https://maps.app.goo.gl/TwKrHnDLVob7vqdS7?g_st=iw"
+                            spellcheck="false"
+                            data-ms-editor="true"
+                        >
+                            Review
+                        </a>',
+                ],
+            ],
+            (object) [
+                'template' => 'map',
+                'content' => (object) [
+                    'class' => null,
+                    'map' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.873262372817!2d-114.73046049999999!3d32.715995299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d6f94a9f4ab497%3A0x1c22cf471f3b5998!2stopdentistslosalgodones.com!5e0!3m2!1ses-419!2smx!4v1670042796909!5m2!1ses-419!2smx',
+                ],
+            ],
+        ];
+        return view('testimonial', ['content' => $content]);
+    }
 }

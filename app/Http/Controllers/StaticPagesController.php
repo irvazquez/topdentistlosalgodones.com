@@ -1170,6 +1170,24 @@ class StaticPagesController extends Controller
                 ],
             ],
             (object) [
+                'template' => 'video_line',
+                'content' => (object) [
+                    'class' => null,
+                    'videos' => [
+                        (object) [
+                            'title' => 'Patient Eric Goshorn',
+                            'content' => 'Treatment plan  for post, crown and 2 TCS partials.',
+                            'src' => 'https://www.youtube.com/embed/sBQ0QQXzey8'
+                        ],
+                        (object) [
+                            'title' => 'Patient Mylo Berstad',
+                            'content' => 'TCS treatment.',
+                            'src' => 'https://www.youtube.com/embed/Yrkr-ME-kds'
+                        ],
+                    ],
+                ],
+            ],
+            (object) [
                 'template' => 'map',
                 'content' => (object) [
                     'class' => null,
@@ -1177,6 +1195,7 @@ class StaticPagesController extends Controller
                 ],
             ],
         ];
+
         return view('testimonial', ['content' => $content]);
     }
 }

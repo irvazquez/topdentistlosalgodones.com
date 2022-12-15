@@ -6,7 +6,7 @@
       <div class="row">
         <div class="col-sm-10 col-sm-offset-1">
           <h3 class="uppercase color-primary mb40 mb-xs-24" spellcheck="false" data-ms-editor="true">Sample Price</h3>
-          <table class="table table-hover table-striped">
+          <table class="table table-hover table-striped table-responsive">
             <thead>
               <tr>
                 <th>Dental Procedure</th>

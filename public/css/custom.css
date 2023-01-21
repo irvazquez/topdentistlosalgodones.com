@@ -1,0 +1,45 @@
+/****** PLACE YOUR CUSTOM STYLES HERE ******/
+/* Whatsapp flotante */
+.whatsappFloat {
+  color: #fff;
+  background: #25D366;
+  font-size: 40px;
+  padding: 8px 12px;
+  border-radius: 40px;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  opacity: 0.9;
+  z-index: 999999999999;
+}
+
+.whatsappFloat:hover {
+  color: #fff;
+}
+
+/* Table */
+/* .cell-danger { */
+  /* background-color: #f904047a; */
+  /* color: #6666667a; */
+  
+/* } */
+
+.cell-primary {
+  color: #aa3163;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+tbody > tr:hover > .cell-primary {
+  background-color: #aa3163;
+  color: #fff;
+}
+
+/* Alerts */
+.alert-dismissible {
+  position: fixed;
+  top: 60px;
+  right: 15px;
+  z-index: 999;
+  background-color: #fff;
+}

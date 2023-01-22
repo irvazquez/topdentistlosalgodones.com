@@ -1188,6 +1188,24 @@ class StaticPagesController extends Controller
                 ],
             ],
             (object) [
+                'template' => 'video_line',
+                'content' => (object) [
+                    'class' => 'bg-dark',
+                    'videos' => [
+                        (object) [
+                            'title' => 'Patient Amanda Jones',
+                            'content' => 'Zirconia Crown treatment',
+                            'src' => 'https://www.youtube.com/embed/Ff-Zvf9OhOY'
+                        ],
+                        (object) [
+                            'title' => 'Patient Mohamad Khoder',
+                            'content' => 'Full Mouth Zirconia Crown Restoration',
+                            'src' => 'https://www.youtube.com/embed/eXCmD-meEvE'
+                        ],
+                    ],
+                ],
+            ],
+            (object) [
                 'template' => 'map',
                 'content' => (object) [
                     'class' => null,

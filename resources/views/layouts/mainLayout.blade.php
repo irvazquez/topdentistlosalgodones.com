@@ -198,9 +198,12 @@
 			</footer>
 		</div>
 
-		<a target="_blank" href="https://api.whatsapp.com/send?phone=526861517039" class="whatsappFloat">
-    	<i class="fa fa-whatsapp"></i>
+		<a target="_blank" href="https://m.me/topdentistslosalgodones" class="whatsappFloat">
+    	<img src="/img/facebook-messenger.svg" alt="Facebook messenger logo" />
 		</a>
+		{{-- <a target="_blank" href="https://api.whatsapp.com/send?phone=526861517039" class="whatsappFloat">
+    	<i class="fa fa-whatsapp"></i>
+		</a> --}}
 		
 				
     <script src="{{ asset('js/jquery.min.js') }}"></script>

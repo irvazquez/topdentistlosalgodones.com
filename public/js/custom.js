@@ -12,3 +12,8 @@ function readURL(input) {
 $("#fileImages").change(function () {
   readURL(this);
 });
+
+function onSubmit(token) {
+  console.log({ token });
+  const estimateForm = $('#estimate').submit();
+}

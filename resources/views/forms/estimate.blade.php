@@ -83,8 +83,20 @@
             multiple
           >
       </div>
-        <button type="submit">Send Message</button>
+        <button
+        class="g-recaptcha"
+        type="submit"
+        data-sitekey="{{ env('RECAPTCHA_PUBLIC')}}"
+        data-callback='onSubmit'
+        data-action='submit'
+      >
+        Send Message
+      </button>
       </form>
     </div>
   </div>
 </section>
+
+@section('addJs')
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+@endsection
